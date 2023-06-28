@@ -57,11 +57,11 @@ function Logos(props: Props) {
           <div class="w-36 lg:w-40 h-17 lg:h-20 px-4 lg:px-6 py-6 lg:py-4 inline-block align-middle">
             <div class="flex w-full h-full items-center justify-center">
               <Image
-                width={300}
-                height={300}
+                width={1200}
+                height={450}
                 src={element.image}
                 alt={element.altText || ""}
-                class="max-w-full max-h-full"
+                class="max-w-full max-h-full w-full"
               />
             </div>
           </div>
